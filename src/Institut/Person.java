@@ -40,12 +40,15 @@ public class Person implements People{
 
     }
 
-    public Person(String name, String surname, String facultyName, String gender){
-
+    public Person(String name, String surname, Gender gender, String facultyName){
+        this.name = name;
+        this.surname = surname;
+        this.gender = gender;
+        this.facultyName = facultyName;
     }
 
     @Override
     public void print() {
-
+        System.out.print("This is " + this.name + " " + this.surname + ".");
     }
 }
