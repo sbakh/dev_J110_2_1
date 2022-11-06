@@ -42,10 +42,6 @@ public class Main {
 
                 break;
         }
-
-        for (Object o: objects) {
-            //System.out.println("");
-        }
     }
     public static void main(String[] args) {
 
